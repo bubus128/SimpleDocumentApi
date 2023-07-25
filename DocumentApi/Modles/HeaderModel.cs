@@ -22,7 +22,7 @@ namespace DocumentApi.Modles
             {
                 if (properties[i].PropertyType == typeof(DateTime))
                 {
-                    properties[i].SetValue(this, DateTime.Parse(paramsList[i]));
+                    properties[i].SetValue(this, DateTime.ParseExact(paramsList[i], "dd-MM-yyyy", null));
                 }
                 else if (properties[i].PropertyType == typeof(float))
                 {
