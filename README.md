@@ -23,4 +23,4 @@ docker-compose build
 docker-compose up
 ```
 
-4. Once the application is up and running, you can access it in your web browser at http://localhost:8000.
+4. Once the application is up and running, you can access it at http://localhost:8000/api/test.
